@@ -1,14 +1,17 @@
 /* styles.css */
-body {
-    background-color: #FFFFFF;
+html {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+body {
+    background-color: #FFFFFF;
+}
+
 h1 {
-    color: #666;
+    color: #000000;
 }
 
 p {
     font-size: 30px;
-    color: #666;
+    color: #000000;
 }
