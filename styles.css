@@ -20,7 +20,7 @@ html, body {
 }
 
 footer {
-    position: relative; 
+    position: absolute;
     bottom: 0;
     background-color: #004D26;
     text-align: center;
