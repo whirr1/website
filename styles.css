@@ -3,7 +3,7 @@ html, body {
     font-family: "Lucida Console", "Courier", monospace;
 }
 
-.banner {
+header {
     background-color: #004D26;
     text-align: center;
     color: #FFFFFF;
