@@ -6,6 +6,8 @@ header {
 }
 
 html, body {
+    height: 100%;
+    margin: 0;
     font-family: "Lucida Console", "Courier", monospace;
     background-color: #FFFFFF;
     text-align: center;
