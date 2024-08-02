@@ -1,5 +1,5 @@
 /* styles.css */
-html, body {
+html {
     font-family: "Lucida Console", "Courier", monospace;
 }
 
@@ -9,7 +9,13 @@ header {
     color: #FFFFFF;
 }
 
-.info {
+body {
     background-color: #FFFFFF;
     text-align: center;
+}
+
+footer {
+    background-color: #004D26;
+    text-align: center;
+    color: #FFFFFF;
 }
