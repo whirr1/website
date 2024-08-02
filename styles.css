@@ -22,6 +22,8 @@ html, body {
 footer {
     position: absolute;
     bottom: 0;
+    margin: 0;
+    border: none;
     background-color: #004D26;
     text-align: center;
     color: #FFFFFF;
