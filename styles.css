@@ -1,10 +1,14 @@
 /* styles.css */
 html, body {
     font-family: "Lucida Console", "Courier", monospace;
-    background-color: #FFFFFF;
 }
 
 .banner {
     background-color: #004D26;
+    text-align: center;
+}
+
+.info {
+    background-color: #FFFFFF;
     text-align: center;
 }
