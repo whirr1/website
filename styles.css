@@ -1,15 +1,12 @@
 /* styles.css */
-html {
-    font-family: "Lucida Console", "Courier", monospace;
-}
-
 header {
     background-color: #004D26;
     text-align: center;
     color: #FFFFFF;
 }
 
-body {
+html, body {
+    font-family: "Lucida Console", "Courier", monospace;
     background-color: #FFFFFF;
     text-align: center;
 }
