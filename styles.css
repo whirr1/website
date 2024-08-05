@@ -21,6 +21,7 @@ header {
     padding: 20px;
     text-align: center;
     background-color: #004D26;
+    color: #FFFFFF;
 }
 
 .content {
@@ -34,4 +35,5 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #004D26;
+    color: #FFFFFF;
 }
