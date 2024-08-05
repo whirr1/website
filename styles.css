@@ -18,9 +18,9 @@ html, body {
 }
 
 header {
-    background-color: ##004D26;
     padding: 20px;
     text-align: center;
+    background-color: ##004D26;
 }
 
 .content {
@@ -29,9 +29,9 @@ header {
 }
 
 footer {
-    background-color: ##004D26;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: ##004D26;
 }
