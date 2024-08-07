@@ -29,6 +29,12 @@ header {
     padding: 20px;
 }
 
+.hobbies {
+            display: grid;
+            grid-template-columns: repeat(3, auto); /* Create three columns */
+            gap: 10px; /* Add space between the headers */
+        }
+
 footer {
     padding: 20px;
     text-align: center;
