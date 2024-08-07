@@ -30,8 +30,9 @@ header {
 }
 
 .hobbies {
-    flex: 1;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 footer {
