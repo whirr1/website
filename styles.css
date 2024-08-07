@@ -12,6 +12,7 @@ html, body {
 }
 
 .midsection {
+    padding: 30px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
