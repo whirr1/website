@@ -30,9 +30,9 @@ header {
 }
 
 .hobbies {
-            display: grid;
-            grid-template-columns: repeat(3, auto); /* Create three columns */
-            gap: 10px; /* Add space between the headers */
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
         }
 
 footer {
