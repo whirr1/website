@@ -31,8 +31,8 @@ function App() {
         <p>Welcome to my Website!</p>
       </header>
       <main style={{ padding: '20px' }}>
-        <h2>About Us</h2>
-        <p>Test.</p>
+        <h2>About</h2>
+        <p>Test</p>
       </main>
       <Footer />
     </div>
