@@ -14,9 +14,9 @@ function Footer() {
   return (
     <footer style={{ backgroundColor: '#282c34', padding: '10px', textAlign: 'center', color: 'white' }}>
       <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'space-around' }}>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>GitHub</li>
+        <li>LinkedIn</li>
+        <li>Email</li>
       </ul>
     </footer>
   );
