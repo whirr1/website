@@ -13,7 +13,11 @@ function Navbar() {
 function Footer() {
   return (
     <footer style={{ backgroundColor: '#282c34', padding: '10px', textAlign: 'center', color: 'white' }}>
-      <p>&copy; 2024 My Website</p>
+      <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'space-around' }}>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </footer>
   );
 }
