@@ -23,12 +23,12 @@ function App() {
     <div>
       <Navbar />
       <header style={{ backgroundColor: '#282c34', padding: '20px', textAlign: 'center', color: 'white' }}>
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple React component rendering the header.</p>
+        <h1>Noah Krull</h1>
+        <p>Welcome to my Website!</p>
       </header>
       <main style={{ padding: '20px' }}>
         <h2>About Us</h2>
-        <p>Our website is powered by React for a dynamic user experience.</p>
+        <p>Test.</p>
       </main>
       <Footer />
     </div>
