@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noah Krull</title>
     <link rel="icon" href="Images/NK.png" type="image/png">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,9 +14,20 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-    <script type="text/babel" src="app.js"></script>
+    <script type="text/babel" src="layout.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    
+    <script type="text/babel">
+        const HomePage = () => {
+            return (
+                <Layout>
+                    <h2>Welcome!</h2>
+                    <p>This is the main page of my website. It's great to have you here!</p>
+                    <p>Feel free to look around at my accomplishments, projects, and my personal blog.</p>
+                </Layout>
+            );
+        };
+
+        ReactDOM.render(<HomePage />, document.getElementById('root'));
+    </script>
 </body>
 </html>
