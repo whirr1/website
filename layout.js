@@ -1,5 +1,3 @@
-// layout.js - FINAL CORRECTED VERSION
-
 const Layout = ({ children }) => {
     return (
         <>
