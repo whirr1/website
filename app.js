@@ -1,12 +1,16 @@
-const App = () => {
+// This component will be the main layout for ALL your pages
+const Layout = ({ children }) => {
     return (
-        <div>
+        // The empty fragment <>...</> is needed because a component must return a single element
+        <>
             <nav>
                 <ul>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#accomplishments">Accomplishments</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    {/* These now point to separate HTML files */}
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/education.html">Education</a></li>
+                    <li><a href="/accomplishments.html">Accomplishments</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
                 </ul>
             </nav>
 
@@ -15,46 +19,29 @@ const App = () => {
                 <p>Digital Resume and Blog</p>
             </header>
 
+            {/* 'children' is where the unique content of each page will go */}
             <main>
-                <section id="education">
-                    <h2>My Education</h2>
-                    {/* Add your education details here */}
-                </section>
-
-                <section id="accomplishments">
-                    <h2>My Accomplishments</h2>
-                    {/* Add your accomplishments here */}
-                </section>
-
-                <section id="blog">
-                    <h2>My Blog</h2>
-                    {/* Your blog posts will go here */}
-                </section>
-
-                <section id="projects">
-                    <h2>My Projects</h2>
-                    {/* Add your project details here */}
-                </section>
+                {children}
             </main>
 
             <footer>
-                <p>&copy; 2024 Noah Krull</p>
+                <p>&copy; 2025 Noah Krull</p>
             </footer>
-        </div>
+        </>
     );
 };
 
-const Blog = () => {
-    const [markdown, setMarkdown] = React.useState('');
-
-    React.useEffect(() => {
-        // Replace 'posts/my-first-post.md' with the path to your markdown file
-        fetch('posts/my-first-post.md')
-            .then(response => response.text())
-            .then(text => setMarkdown(marked.parse(text)));
-    }, []);
-
-    return <div dangerouslySetInnerHTML={{ __html: markdown }} />;
+// --- Content for the HOME PAGE (index.html) ---
+const HomePage = () => {
+    return (
+        <Layout>
+            <h2>Welcome!</h2>
+            <p>This is the main page of my website. It's great to have you here!</p>
+            <p>Feel free to look around at my accomplishments, projects, and my personal blog.</p>
+            {/* Add any other basic info you want on the home page here */}
+        </Layout>
+    );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// This renders the HomePage component to the 'root' div
+ReactDOM.render(<HomePage />, document.getElementById('root'));
