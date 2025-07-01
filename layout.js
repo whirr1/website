@@ -1,4 +1,4 @@
-// layout.js - CORRECTED VERSION
+// layout.js - FINAL CORRECTED VERSION
 
 const Layout = ({ children }) => {
     return (
