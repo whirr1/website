@@ -2,10 +2,9 @@
 
 const Layout = ({ children }) => {
     return (
-        <> 
+        <>
             <nav>
                 <ul>
-                    {/* Using relative links is the safest option */}
                     <li><a href="index.html">Home</a></li>
                     <li><a href="education.html">Education</a></li>
                     <li><a href="accomplishments.html">Accomplishments</a></li>
