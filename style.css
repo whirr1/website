@@ -1,23 +1,27 @@
+/* --- General Body & HTML Styling --- */
 html, body {
-    height: 100%;
+    height: 100%; /* Key for Sticky Footer */
     margin: 0;
     font-family: sans-serif;
     background-color: #f4f4f4;
 }
 
+/* --- Main Layout Container (#root) --- */
 #root {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
+    display: flex; /* Key for Sticky Footer */
+    flex-direction: column; /* Key for Sticky Footer */
+    min-height: 100vh; /* Key for Sticky Footer: Makes it fill the screen */
 }
 
+/* --- Main Content Area --- */
 main {
-    flex-grow: 1; 
+    flex-grow: 1; /* Key for Sticky Footer: Pushes footer down */
     padding: 20px;
     background: white;
     margin: 0 20px;
 }
 
+/* --- Navigation Bar --- */
 nav {
     background: #333;
     color: white;
@@ -39,6 +43,7 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* --- Header --- */
 header {
     text-align: center;
     padding: 50px 0;
@@ -46,6 +51,7 @@ header {
     color: white;
 }
 
+/* --- Footer --- */
 footer {
     text-align: center;
     padding: 20px;
