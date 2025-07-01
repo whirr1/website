@@ -1,7 +1,8 @@
-// This is our single, shared Layout component.
+// layout.js - CORRECTED VERSION
+
 const Layout = ({ children }) => {
     return (
-        <>
+        <> 
             <nav>
                 <ul>
                     {/* Using relative links is the safest option */}
@@ -12,13 +13,16 @@ const Layout = ({ children }) => {
                     <li><a href="projects.html">Projects</a></li>
                 </ul>
             </nav>
+
             <header>
                 <h1>Noah Krull's Awesome Website!</h1>
                 <p>Digital Resume and Blog</p>
             </header>
+
             <main>
                 {children}
             </main>
+            
             <footer>
                 <p>&copy; 2025 Noah Krull</p>
             </footer>
