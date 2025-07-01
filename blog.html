@@ -15,8 +15,7 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <script type="text/babel">
-        // The shared Layout component (assuming app.js is loaded or defined above this)
-        // NOTE: For this to work easily without a build step, we must redefine the Layout here.
+
         const Layout = ({ children }) => {
             return (
                 <>
@@ -41,7 +40,6 @@
                 <Layout>
                     <h2>My Blog</h2>
                     <p>Here is my blog! Here I will post writeups, research, and general things that interest me!</p>
-                    {/* Add your university, degree, GPA, etc. here */}
                 </Layout>
             );
         };
