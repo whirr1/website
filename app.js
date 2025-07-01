@@ -44,17 +44,4 @@ const App = () => {
     );
 };
 
-const Blog = () => {
-    const [markdown, setMarkdown] = React.useState('');
-
-    React.useEffect(() => {
-        // Replace 'posts/my-first-post.md' with the path to your markdown file
-        fetch('posts/my-first-post.md')
-            .then(response => response.text())
-            .then(text => setMarkdown(marked.parse(text)));
-    }, []);
-
-    return <div dangerouslySetInnerHTML={{ __html: markdown }} />;
-};
-
 ReactDOM.render(<App />, document.getElementById('root'));
