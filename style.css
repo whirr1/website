@@ -1,15 +1,27 @@
-body {
-    font-family: sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
+    font-family: sans-serif;
     background-color: #f4f4f4;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+main {
+    flex-grow: 1; 
+    padding: 20px;
+    background: white;
+    margin: 0 20px;
 }
 
 nav {
     background: #333;
     color: white;
     padding: 1rem;
-    position: sticky;
-    top: 0;
 }
 
 nav ul {
@@ -24,6 +36,7 @@ nav ul li a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 header {
@@ -33,16 +46,10 @@ header {
     color: white;
 }
 
-section {
-    padding: 20px;
-    margin: 0 20px;
-    background: white;
-    border-bottom: 1px solid #ddd;
-}
-
 footer {
     text-align: center;
     padding: 20px;
     background: #333;
     color: white;
+    width: 100%;
 }
